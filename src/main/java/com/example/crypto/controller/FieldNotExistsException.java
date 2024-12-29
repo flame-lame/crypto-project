@@ -1,7 +1,7 @@
 package com.example.crypto.controller;
 
-public final class InvalidSortFieldException extends Exception {
-    public InvalidSortFieldException(String message) {
+public final class FieldNotExistsException extends Exception {
+    public FieldNotExistsException(String message) {
         super(message);
     }
 }

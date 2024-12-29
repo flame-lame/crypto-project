@@ -1,4 +1,4 @@
-package com.example.crypto.service;
+package com.example.crypto.repository;
 
 public class DuplicatedIdException extends Exception {
     public DuplicatedIdException(String message) {
